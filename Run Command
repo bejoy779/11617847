@@ -1,0 +1,7 @@
+Run process:
+	gcc -c train.c -o train.o
+	gcc -c train-runner.c -o train-runner.o
+	gcc -Wall -Wno-unused-value train.o train-runner.o -o run -lpthread
+	./run
+
+
